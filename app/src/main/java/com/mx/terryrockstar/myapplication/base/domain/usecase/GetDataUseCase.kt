@@ -7,11 +7,11 @@ import com.mx.terryrockstar.myapplication.data.source.Repository
 
 class GetDataUseCase(private val repository: Repository) {
 
-    suspend operator fun invoke(forceUpdate: Boolean = false, currentFiltering: FilterType): Result<List<String>> {
+    suspend operator fun invoke(forceUpdate: Boolean = false, currentFiltering: FilterType): Result<String> {
 
         val postResult = repository.getResponse(forceUpdate, currentFiltering)
 
-        if (postResult is Result.Success<*>) {
+        if (postResult is Result.Success<String>) {
             return if (postResult.data.isNotEmpty()) {
                 Result.Success(postResult.data)
             } else {

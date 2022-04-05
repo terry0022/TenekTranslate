@@ -1,5 +1,6 @@
 package com.mx.terryrockstar.myapplication.data.source.remote
 
+import com.mx.terryrockstar.myapplication.data.Result
 import com.mx.terryrockstar.myapplication.data.source.DataSource
 
 class RemoteSource : DataSource {
@@ -9,6 +10,10 @@ class RemoteSource : DataSource {
      */
     override fun destroyInstance() {
         INSTANCE = null
+    }
+
+    override fun getResponse(): Result<String> {
+        TODO("Not yet implemented")
     }
 
     companion object {
