@@ -18,7 +18,6 @@ android {
         }
     }
     compileSdkVersion 30
-    buildToolsVersion "30.0.2"
 
     defaultConfig {
         applicationId "com.mx.terryrockstar.myapplication"
@@ -39,7 +38,6 @@ android {
             renderscriptOptimLevel 3
             zipAlignEnabled true
             shrinkResources false
-            useProguard false
         }
         release {
             minifyEnabled true
@@ -49,7 +47,6 @@ android {
             renderscriptOptimLevel 3
             zipAlignEnabled true
             shrinkResources true
-            useProguard true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.release
             multiDexEnabled true
