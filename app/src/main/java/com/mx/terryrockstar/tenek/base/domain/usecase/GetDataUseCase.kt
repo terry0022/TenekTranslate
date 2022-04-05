@@ -1,9 +1,9 @@
-package com.mx.terryrockstar.myapplication.base.domain.usecase
+package com.mx.terryrockstar.tenek.base.domain.usecase
 
-import com.mx.terryrockstar.myapplication.base.domain.model.Response
-import com.mx.terryrockstar.myapplication.data.FilterType
-import com.mx.terryrockstar.myapplication.data.Result
-import com.mx.terryrockstar.myapplication.data.source.Repository
+import com.mx.terryrockstar.tenek.base.domain.model.Response
+import com.mx.terryrockstar.tenek.data.FilterType
+import com.mx.terryrockstar.tenek.data.Result
+import com.mx.terryrockstar.tenek.data.source.Repository
 
 class GetDataUseCase(private val repository: Repository) {
 

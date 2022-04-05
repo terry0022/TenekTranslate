@@ -1,4 +1,4 @@
-package com.mx.terryrockstar.myapplication
+package com.mx.terryrockstar.tenek
 
 import android.annotation.SuppressLint
 import android.app.Application

@@ -1,7 +1,7 @@
-package com.mx.terryrockstar.myapplication.data.source.local
+package com.mx.terryrockstar.tenek.data.source.local
 
-import com.mx.terryrockstar.myapplication.data.Result
-import com.mx.terryrockstar.myapplication.data.source.DataSource
+import com.mx.terryrockstar.tenek.data.Result
+import com.mx.terryrockstar.tenek.data.source.DataSource
 
 class LocalSource : DataSource {
 

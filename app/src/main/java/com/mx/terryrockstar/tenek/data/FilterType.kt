@@ -1,4 +1,4 @@
-package com.mx.terryrockstar.myapplication.data
+package com.mx.terryrockstar.tenek.data
 
 enum class FilterType {
 

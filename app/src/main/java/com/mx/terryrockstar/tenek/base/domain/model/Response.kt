@@ -1,4 +1,4 @@
-package com.mx.terryrockstar.myapplication.base.domain.model
+package com.mx.terryrockstar.tenek.base.domain.model
 
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName

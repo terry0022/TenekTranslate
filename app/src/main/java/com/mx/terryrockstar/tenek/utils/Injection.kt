@@ -1,9 +1,9 @@
-package com.mx.terryrockstar.myapplication.utils
+package com.mx.terryrockstar.tenek.utils
 
-import com.mx.terryrockstar.myapplication.base.domain.usecase.GetDataUseCase
-import com.mx.terryrockstar.myapplication.data.source.ResponseRepository
-import com.mx.terryrockstar.myapplication.data.source.local.LocalSource
-import com.mx.terryrockstar.myapplication.data.source.remote.RemoteSource
+import com.mx.terryrockstar.tenek.base.domain.usecase.GetDataUseCase
+import com.mx.terryrockstar.tenek.data.source.ResponseRepository
+import com.mx.terryrockstar.tenek.data.source.local.LocalSource
+import com.mx.terryrockstar.tenek.data.source.remote.RemoteSource
 
 class Injection {
 

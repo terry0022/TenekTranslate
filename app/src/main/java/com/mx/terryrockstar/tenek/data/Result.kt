@@ -1,6 +1,6 @@
-package com.mx.terryrockstar.myapplication.data
+package com.mx.terryrockstar.tenek.data
 
-import com.mx.terryrockstar.myapplication.base.domain.model.Response
+import com.mx.terryrockstar.tenek.base.domain.model.Response
 
 /**
  * A generic class that holds a value with its loading status.

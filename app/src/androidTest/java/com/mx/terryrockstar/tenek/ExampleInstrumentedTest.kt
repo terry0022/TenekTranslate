@@ -1,4 +1,4 @@
-package com.mx.terryrockstar.myapplication
+package com.mx.terryrockstar.tenek
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -1,9 +1,9 @@
-package com.mx.terryrockstar.myapplication.data.source
+package com.mx.terryrockstar.tenek.data.source
 
-import com.mx.terryrockstar.myapplication.base.domain.model.Response
-import com.mx.terryrockstar.myapplication.data.FilterType
-import com.mx.terryrockstar.myapplication.data.Result
-import com.mx.terryrockstar.myapplication.utils.Print
+import com.mx.terryrockstar.tenek.base.domain.model.Response
+import com.mx.terryrockstar.tenek.data.FilterType
+import com.mx.terryrockstar.tenek.data.Result
+import com.mx.terryrockstar.tenek.utils.Print
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

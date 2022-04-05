@@ -1,7 +1,7 @@
-package com.mx.terryrockstar.myapplication.utils
+package com.mx.terryrockstar.tenek.utils
 
 import android.util.Log
-import com.mx.terryrockstar.myapplication.BuildConfig
+import com.mx.terryrockstar.tenek.BuildConfig
 import org.json.JSONObject
 
 

@@ -1,7 +1,7 @@
-package com.mx.terryrockstar.myapplication.data.source.remote
+package com.mx.terryrockstar.tenek.data.source.remote
 
-import com.mx.terryrockstar.myapplication.data.Result
-import com.mx.terryrockstar.myapplication.data.source.DataSource
+import com.mx.terryrockstar.tenek.data.Result
+import com.mx.terryrockstar.tenek.data.source.DataSource
 
 class RemoteSource : DataSource {
 

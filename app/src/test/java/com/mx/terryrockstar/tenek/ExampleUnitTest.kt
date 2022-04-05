@@ -1,4 +1,4 @@
-package com.mx.terryrockstar.myapplication
+package com.mx.terryrockstar.tenek
 
 import org.junit.Test
 
