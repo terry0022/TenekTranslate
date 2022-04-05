@@ -1,5 +1,9 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">Traductor Tenek</string>
     <string name="text_search">Búsqueda</string>
     <string name="text_welcome">Bienvenido</string>
+=======
+    <string name="app_name">Tenek Dictionary</string>
+>>>>>>> development
 </resources>
